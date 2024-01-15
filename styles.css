@@ -1,0 +1,247 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    margin: 0%;
+}
+.section-1
+{
+    width: 100%;
+    height: 720px;
+    background-image:linear-gradient( rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url('./assets/images/bg-img.jpg');
+}
+.top
+{
+    width: 90%;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top img
+{
+    height: 40px;
+    margin-top: 32px;
+    margin-left: 100px;
+}
+#lang
+{
+    width: 80px;
+    height: 30px;
+    border-radius: 3px;
+    color: white;
+    background-color: black;
+    padding-left: 9px;
+}
+#sign
+{
+    width: 60px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.log
+{
+    position: absolute;
+    top: 32px;
+    left: 1400px;
+    display: flex;
+    flex-direction: row;
+    width: 160px;
+    justify-content: space-between;
+}
+.subscription
+{
+    width: 60%;
+    height: 300px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+.subscription h1{
+    font-family: 'Lemon', serif;
+font-size: 39px;
+}
+.subscription h2{
+font-family: 'Libre Baskerville', serif;
+}
+.mail
+{
+    display: flex;
+    flex-direction: row;
+    width: 42%;
+    height: 50px;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.mail-id
+{
+    background-color: black;
+    border: none;
+    color: white;
+    padding-left: 10px;
+    border-radius: 3px;
+    opacity: 70%;
+    width: 280px;
+}
+.mail p
+{
+    background-color: red;
+    width: 110px;
+    height: 50px;
+    position: relative;
+    top: -15px;
+    border-radius: 3px;
+}
+.mail p a
+{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 14px;
+}
+.break
+{
+    width: 100%;
+    height: 10px;
+    background-color: black;
+    opacity: 80%;
+}
+.section
+{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.content
+{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    margin-left: 250px;
+}
+.content h1
+{
+    font-size: 60px;
+}
+.content p
+{
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;;
+}
+.images
+{
+    width: 50%;
+}
+.phone
+{
+    margin-left: 120px;
+}
+.mac img
+{
+    height: 540px;
+    width: 630px;
+}
+.img-4
+{
+    margin-left: 140px;
+}
+.queries
+{
+    width: 100%;
+    height: 850px;
+    background-color: black;
+    color: white;
+    
+    display: flex;
+    flex-direction: column;
+
+}
+.queries h1
+{
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+}
+.query-box
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.querys
+{
+    width: 80%;
+    height: 80px;
+    background-color: rgb(71 71 71);
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.querys p{
+    padding-left: 30px;
+    font-size: 30px;
+}
+.letter-box
+{
+    width: 70%;
+    height: 120px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.letter-box p
+{
+    text-align: center;
+}
+.membership
+{
+    font-size: 25px;
+}
+.footer
+{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+table
+{
+    width: 80%;
+    height: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: none;
+}
+tr,th,td
+{
+    border: none;
+}
+td{
+    width: 20px;
+    height: 20px;
+}
+td a{
+    color: white;
+}
